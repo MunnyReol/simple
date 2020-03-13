@@ -1,5 +1,6 @@
 body{
     background-color: #e0d5d5;
+    width: device-width;
 }
 .site_heading{
      color:red;
