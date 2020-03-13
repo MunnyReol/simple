@@ -1,56 +1,69 @@
 body{
-	background-color: #e0d5d5;
+    background-color: #e0d5d5;
 }
-
-h1.site_heading{
-	text-align: center;
-	font-size: 130px;
+.site_heading{
+     color:red;
+    text-align: center;
+    font-size: 40px;
 }
 
 div.main_content{
-	text-align: center;
+    text-align: center;
 }
 
 form{
-	text-align: center;
+    text-align: center;
 }
 
 input[type=text]{
-	border-radius: 5px;
-	width: 450px;
-	height: 50px;
-	padding: 9px;
-	border: 1px solid #ccc;
-	font-size: 21px;
+    border-radius: 5px;
+    width: 60%;
+    height: 50px;
+    padding: 9px;
+    border: 1px solid #ccc;
+    font-size: 21px;
 }
 
 input[type=button]{
-	width: 100px;
-	height: 50px;
-	font-size: 20px;
-	border-radius: 8px;
-	background-color: #007bff;
-	cursor: pointer;
-	margin: 0px;
-	color: white;
-	border: 1.5px solid white;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: #007bff;
+    cursor: pointer;
+    margin: 0px;
+    color: white;
+    border: 1.5px solid red;
 }
 
 input[type=button]:hover{
-	background-color: #0033ff;
+    background-color: #0033ff;
 }
 
 #channel_name{
-	font-size: 40px;
-	font-weight: bold;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 #sub_count{
-	margin-top: 5px;
-	display: none;
-	font-size: 60px;
-	background-color: black;
-	color: white;
-	border-radius: 20px;
-	padding: 5px 10px;
+    font-size: 60px;
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+    padding:5px 10px;
+}
+#viewCount{
+color:white;
+font-size:60px;
+background-color:blue;
+border-radius:25px;
+padding:5px 10px;
+}
+.view{
+    font-size:40;
+    font-weight:bold;
+}
+#userpic{
+    width:250px;
+    height:250px;
 }
