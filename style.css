@@ -1,6 +1,8 @@
 body{
     background-color: #e0d5d5;
-    width: device-width;
+    display: block;
+    margin-left : auto; 
+     margin-right : auto; 
 }
 .site_heading{
      color:red;
@@ -32,7 +34,6 @@ input[type=button]{
     border-radius: 8px;
     background-color: #007bff;
     cursor: pointer;
-    margin: 0px;
     color: white;
     border: 1.5px solid red;
 }
