@@ -32,6 +32,12 @@ function request_data(channel_id)
         {
             return console.log(JSON.parse(this.responseText)["error"]["message"]);
         }
+        {
+             document.getElementById("viewCount").innerHTML = output.items[0].statistics["viewCount"];
+        }
+        {
+            document.getElementById("userpic").innerHTML = output.items[0].snippet.thumbnails.default["url"];
+        }
     };
     xhttp.open("GET", "https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id="+channel_id+"&key=AIzaSyA_ZnXsnsCB9LtIVwqIDisKOYoUZfhfLmc", true);
     xhttp.send();
