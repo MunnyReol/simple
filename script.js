@@ -36,7 +36,9 @@ function request_data(channel_id)
              document.getElementById("viewCount").innerHTML = output.items[0].statistics["viewCount"];
         }
         {
-            document.getElementById("userpic").innerHTML = output.items[0].snippet.thumbnails.default["url"];
+            pic=output.items[0].snippet.thumbnails.high["url"];
+        
+         var image = document.querySelector('#user_pic'); image.src = pic;
         }
     };
     xhttp.open("GET", "https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id="+channel_id+"&key=AIzaSyA_ZnXsnsCB9LtIVwqIDisKOYoUZfhfLmc", true);
