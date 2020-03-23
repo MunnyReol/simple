@@ -10,16 +10,18 @@
     </head>
     <body>
         <h1 class="site_heading">Live Sub Counter</h1>
+        <img id="user_pic" src="https://yt3.ggpht.com/a/AATXAJztvITDABPwCsWnI-VsoiDNEOQvtoaLxgwiPw=s800-c-k-c0xffffffff-no-rj-mo"></img>
+        <br>
+        <br>
         <form class="form-inline">
-            <input type="text" id="channel_id" placeholder="Channel ID (UCC2-EIXX2LSYInLPSR3kxPQ)"><br>
+            <input type="text" id="channel_id" placeholder="Channel ID (UCC2-EIXX2LSYInLPSR3kxPQ)" value="UCq-Fj5jknLsUf-MWSy4_brA"><br>
             <input type="button" onclick="result(document.getElementById('channel_id').value)" value="Count">
         </form>
         <div class="main_content">
-            <span id="channel_name">channel name</span><br><br>
+            <span id="channel_name">Channel name</span><br><br>
             <span id="sub_count">0</span><br><br>
             <view class="view">View Count</view><br>
             <span id="viewCount">0</span><br><br>
-           <img id="userpic" src=""></img>
         </div>
         
         <script src="script.js"></script>
